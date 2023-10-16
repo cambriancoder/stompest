@@ -7,7 +7,7 @@ from twisted.python import failure
 from stompest.error import StompConnectionError, StompCancelledError, StompProtocolError
 from stompest.protocol import StompSpec
 
-from stompest.async.util import InFlightOperations, WaitingDeferred, sendToErrorDestination
+from stompest.twisted.util import InFlightOperations, WaitingDeferred, sendToErrorDestination
 
 LOG_CATEGORY = __name__
 

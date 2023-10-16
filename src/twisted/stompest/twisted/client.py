@@ -8,7 +8,7 @@ in exactly the same way as demonstrated in the sync client, but you need to enab
 Examples
 --------
 
-.. automodule:: stompest.async.examples
+.. automodule:: stompest.twisted.examples
     :members:
 
 Producer
@@ -38,8 +38,8 @@ from stompest.error import StompConnectionError, StompFrameError
 from stompest.protocol import StompSession, StompSpec
 from stompest.util import checkattr
 
-from stompest.async import util, listener
-from stompest.async.protocol import StompProtocolCreator
+from stompest.twisted import util, listener
+from stompest.twisted.protocol import StompProtocolCreator
 
 LOG_CATEGORY = __name__
 

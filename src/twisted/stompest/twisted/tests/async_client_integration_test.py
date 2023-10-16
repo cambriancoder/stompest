@@ -5,8 +5,8 @@ from twisted.internet import reactor, defer, task
 from twisted.trial import unittest
 
 from stompest import async, sync
-from stompest.async.listener import SubscriptionListener, ReceiptListener
-from stompest.async.util import sendToErrorDestinationAndRaise
+from stompest.twisted.listener import SubscriptionListener, ReceiptListener
+from stompest.twisted.util import sendToErrorDestinationAndRaise
 from stompest.config import StompConfig
 from stompest.error import StompConnectionError, StompProtocolError
 from stompest.protocol import StompSpec, commands

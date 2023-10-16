@@ -110,7 +110,7 @@ A few random thoughts:
 
 0. I still do accept (and test) pull requests and bugfixes (if they come with complete and working unit and integration tests), but the Python 3 port was my last big effort for stompest.
 1. I believe that fully implementing the (half-complete) SSL/TLS capability is the most urgent enhancement because apart of that I consider stompest pretty much feature complete and very stable up to Python 3.6; the rate of newly discovered bugs is very low indeed.
-2. For Python 3.7, the `stompest.async` package must be renamed; I believe `stompest.twisted` would be appropriate. If someone creates a pull request, I'll test it and rename the PyPI package accordingly.
+2. For Python 3.7, the `stompest.twisted` package must be renamed; I believe `stompest.twisted` would be appropriate. If someone creates a pull request, I'll test it and rename the PyPI package accordingly.
 3. A port of the Twisted client to `asyncio` would make a lot of sense. If someone creates a pull request, I'll test it and create a new PyPI package.
 4. If someone would like to take over the project, please let me know. I would actively consult as an *éminence grise*.
 
